@@ -15,7 +15,6 @@ function getWords(str) {
 
 function totalWordCount(str) {
 	var words = getWords(str);
-	console.log(words);
 	return words.length;
 }
 
